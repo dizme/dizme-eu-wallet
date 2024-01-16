@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "SphereonWallet",
-    "slug": "SphereonWallet",
+    "name": "DizmeEUWallet",
+    "slug": "DizmeEUWallet",
     "version": "0.1.2",
     "orientation": "portrait",
     "updates": {
@@ -11,10 +11,10 @@
     "jsEngine": "hermes",
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.sphereon.ssi.wallet"
+      "bundleIdentifier": "com.dizmeeu.ssi.wallet"
     },
     "android": {
-      "package": "com.sphereon.ssi.wallet"
+      "package": "com.dizmeeu.ssi.wallet"
     },
     "androidNavigationBar": {
       "barStyle": "light-content",

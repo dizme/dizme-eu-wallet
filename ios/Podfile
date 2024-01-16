@@ -37,7 +37,7 @@ elsif podfile_properties.key?('ios.flipper') then
   end
 end
 
-target 'SphereonWallet' do
+target 'DizmeEUWallet' do
   use_expo_modules!
   config = use_native_modules!
 
@@ -79,7 +79,7 @@ target 'SphereonWallet' do
 #    pod 'Permission-Siri', :path => "#{permissions_path}/Siri"
 #    pod 'Permission-SpeechRecognition', :path => "#{permissions_path}/SpeechRecognition"
 #    pod 'Permission-StoreKit', :path => "#{permissions_path}/StoreKit"
-    pod 'CatCrypto', :git => 'https://github.com/Sphereon-Opensource/CatCrypto'
+    pod 'CatCrypto', :git => 'https://github.com/DizmeEU-Opensource/CatCrypto'
 
   post_install do |installer|
     react_native_post_install(
